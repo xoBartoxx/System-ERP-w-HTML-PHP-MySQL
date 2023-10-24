@@ -29,10 +29,12 @@ Część 3: Tworzenie PHP Backend
 Część 4: Implementacja Akcji Pracownika
 1. W plikach PHP obsługujących akcje pracownika (np. add_product.php,
 add_customer.php), dodaj kod, który będzie zapisywał akcje pracownika w tabeli Employee Actions.
+
 Część 5: Logowanie i Rejestracja Klienta
 1. Stwórz stronę logowania i rejestracji dla klienta w HTML.
 2. Dodaj formularze logowania i rejestracji oraz ich obsługę w plikach PHP (login.php i register.php).
 3. Po zalogowaniu klienta, umożliw mu składanie zamówień.
+
 Wskazówki:
 •Skorzystaj z formularzy HTML do pobierania danych od użytkownika.
 •Wykorzystaj PHP do przetwarzania tych danych i interakcji z bazą danych.
