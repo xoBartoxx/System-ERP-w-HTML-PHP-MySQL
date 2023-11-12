@@ -42,3 +42,17 @@ Wskazówki:
 •Upewnij się, że masz skonfigurowany serwer, który obsługuje PHP.
 •Możesz użyć MySQL lub innego systemu zarządzania bazą danych, którego preferujesz.
 To zadanie obejmuje tworzenie strony internetowej w HTML, tworzenie i zarządzanie bazą danych w MySQL oraz obsługę operacji na bazie danych za pomocą PHP. Oczywiście, to tylko szkic, więc w miarę potrzeb możesz dodać więcej funkcjonalności lub ulepszyć interfejs użytkownika. Powodzenia!
+
+
+TWORZENIE TABEL
+
+CREATE TABLE products(
+id INT AUTO_INCREMENT NOT NULL,
+Nazwa VARCHAR(60),
+Opis VARCHAR(100),
+Cena DECIMAL(10,2),
+Dostepnosc INT(11),
+PRIMARY KEY(id)
+); 
+
+
