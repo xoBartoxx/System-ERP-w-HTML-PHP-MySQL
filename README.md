@@ -61,6 +61,7 @@ Imie VARCHAR(30),
 Nazwisko VARCHAR(45),
 Adres VARCHAR(50),
 email VARCHAR(30),
+login VARCHAR(60),
 haslo VARCHAR(64),
 PRIMARY KEY (id)
 );
