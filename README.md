@@ -55,4 +55,12 @@ Dostepnosc INT(11),
 PRIMARY KEY(id)
 ); 
 
-
+CREATE TABLE customers (
+id INT(11) AUTO_INCREMENT NOT NULL,
+Imie VARCHAR(30),
+Nazwisko VARCHAR(45),
+Adres VARCHAR(50),
+email VARCHAR(30),
+haslo VARCHAR(64),
+PRIMARY KEY (id)
+);
