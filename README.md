@@ -79,7 +79,7 @@ PRIMARY KEY (id)
 
 CREATE TABLE EmployeeActions(
 id_akcji INT(11) NOT NULL AUTO_INCREMENT,
-log VARCHAR(30),
+log VARCHAR(60),
 data DATE,
 PRIMARY KEY(id_akcji)
 )
