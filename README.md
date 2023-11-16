@@ -76,3 +76,10 @@ login VARCHAR(60)NOT NULL,
 haslo VARCHAR(64) NOT NULL,
 PRIMARY KEY (id)
 );
+
+CREATE TABLE EmployeeActions(
+id_akcji INT(11) NOT NULL AUTO_INCREMENT,
+czynnosc VARCHAR(30),
+data DATE,
+PRIMARY KEY(id_akcji)
+)
