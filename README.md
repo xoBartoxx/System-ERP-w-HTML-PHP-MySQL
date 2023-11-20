@@ -83,3 +83,5 @@ log VARCHAR(60),
 data DATE,
 PRIMARY KEY(id_akcji)
 )
+
+ALTER TABLE orders ADD CONSTRAINT fk_orders_customers FOREIGN KEY (Id_klienta) REFERENCES customers(id) ON DELETE CASCADE;
