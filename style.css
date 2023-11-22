@@ -1,0 +1,220 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+#baner {
+    background-color: #333;
+    color: cyan;
+    padding: 10px;
+    text-align: center;
+}
+
+#panel {
+    background-color: #eee;
+	width: 50%;
+	float: left;
+	font-size: 1.5em;
+	height: 60px;
+	padding-top: 10px;
+	color: black;
+}
+
+#guziki a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+}
+
+#sklep {
+    margin: 20px 0;
+	clear: both;
+}
+
+#elo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.butony {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.butony button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-image: url('sklep.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#welcome {
+    font-size: 1.5em;
+    text-align: right;
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+#guziki {
+    text-align: right;
+	width: 50%;
+	float: left;
+	background-color: #eee;
+	height: 70px;
+}
+
+#guziki a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+}
+
+#login{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 130%;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	color: white;
+	border: 2px solid black;
+	border-radius: 20%;
+}
+#register{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 130%;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width: 320px;
+	height: 480px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20%
+}
+input{
+	vertical-align: center;
+}
+label{
+	display: inline-block;
+	width: 100px;
+}
+#login input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#register input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+table, td, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+table{
+	width: 100%;
+	background-color: gray;
+}
+td{
+	with: 100%;
+}
+th{
+	font-size: 120%;
+	color: black;
+}
+#oferta{
+	clear: both;
+	height: 40px;
+	 background-color: #eee;
+	font-size: 1.5em;
+	color: black;
+}
+.formularze{
+	background-color: #333;
+	padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.formularze h2{
+	color: cyan;
+	padding: 20px;
+	text-align: center;
+}
+
+.formularzeee{
+	background-color: #333;
+	padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+.formularzeee h2{
+	color: cyan;
+	padding: 20px;
+	text-align: center;
+}
+
+h4{
+	letter-spacing: 2px;
+	color: #00fdff;
+	font-size: 115%;
+}
+.butony a{
+	text-decoration: none;
+}
+#order{
+	height: 100px;
+	background-color: #333;
+}
+#order h1{
+	padding-top: 30px;
+	padding-left: 10px;
+}
